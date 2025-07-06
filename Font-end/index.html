@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Cerimonial</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Cerimonial</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-top text-bg-dark" tabindex="-1" id="offcanvasMenu">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-white" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#servicos">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#portfolio">Portfólio</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="hero">
+        <div class="content">
+            <h1 class="display-4">Planejamento de Casamentos</h1>
+            <p class="lead">Transforme seu sonho em realidade com nossos serviços personalizados</p>
+            <a href="#contato" class="btn btn-cta">Agendar Reunião</a>
+        </div>
+    </header>
+
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Nossos Serviços</h2>
+                <p>Atendimento completo do início ao altar</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="mb-3 servico-icon">📅</div>
+                    <h5>Organização Completa</h5>
+                    <p>Planejamento, fornecedores, cronograma e execução.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-3 servico-icon">🎉</div>
+                    <h5>Cerimonial do Dia</h5>
+                    <p>Coordenação geral no dia do evento com precisão e carinho.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-3 servico-icon">🍾</div>
+                    <h5>Eventos Especiais</h5>
+                    <p>Debutantes, bodas, formaturas, aniversários e mais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Portfólio de Eventos</h2>
+                <p>Confira alguns momentos marcantes realizados por nossa equipe</p>
+            </div>
+            <div class="row g-4" id="galeria">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-3">Fale Conosco</h3>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Mensagem" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+                <div class="col-md-6 mt-3 contato">
+                    <h5>WhatsApp</h5>
+                    <p class="zapclick"><a href="https://wa.me/5518991166507" target="_blank">Clique aqui para conversar pelo
+                            WhatsApp</a></p>
+                    <h5>Email</h5>
+                    <p>contato@cerimonial.com</p>
+                    <h5>Localização</h5>
+                    <p>Rua _ _ _ _, 123 - Cidade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cerimonial. Todos os direitos reservados.</p>
+    </footer>
+
+    <a href="https://wa.me/5518991166507" class="whatsapp" target="_blank">
+        <img width="33" height="33" src="https://img.icons8.com/color/30/whatsapp--v1.png" alt="whatsapp--v1" />
+    </a>
+
+    <script src="img.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
